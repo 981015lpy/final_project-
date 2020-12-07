@@ -3,19 +3,19 @@ let img
 let width = window.innerWidth
 let height = window.innerHeight
 function preload(){
-	img1 = loadImage("http://127.0.0.1:8848/game/mygame/img/bg1.jpg")
-	img2 = loadImage("http://127.0.0.1:8848/game/mygame/img/bg2.jpg")
-	img3 = loadImage("http://127.0.0.1:8848/game/mygame/img/bg3.jpg")
-	img4 = loadImage("http://127.0.0.1:8848/game/mygame/img/bg4.jpg")
-	img5 = loadImage("http://127.0.0.1:8848/game/mygame/img/bg5.jpg")
-	img6 = loadImage("http://127.0.0.1:8848/game/mygame/img/bg6.jpg")
-	img7 = loadImage("http://127.0.0.1:8848/game/mygame/img/bg7.jpg")
-	p1 = loadImage("http://127.0.0.1:8848/game/mygame/img/p1.jpg")
-	p2 = loadImage("http://127.0.0.1:8848/game/mygame/img/p2.jpg")
-	p3 = loadImage("http://127.0.0.1:8848/game/mygame/img/p3.jpg")
-	boos1 = loadImage("http://127.0.0.1:8848/game/mygame/img/boos1.jpg")
-	boos2 = loadImage("http://127.0.0.1:8848/game/mygame/img/boos2.jpg")
-	boos3 = loadImage("http://127.0.0.1:8848/game/mygame/img/boos3.jpg")
+	img1 = loadImage("../img/bg1.jpg")
+	img2 = loadImage("../img/bg2.jpg")
+	img3 = loadImage("../img/bg3.jpg")
+	img4 = loadImage("../img/bg4.jpg")
+	img5 = loadImage("../img/bg5.jpg")
+	img6 = loadImage("../img/bg6.jpg")
+	img7 = loadImage("../img/bg7.jpg")
+	p1 = loadImage("../img/p1.jpg")
+	p2 = loadImage("../img/p2.jpg")
+	p3 = loadImage("../img/p3.jpg")
+	boos1 = loadImage("../img/boos1.jpg")
+	boos2 = loadImage("../img/boos2.jpg")
+	boos3 = loadImage("../img/boos3.jpg")
 }
 
 function setup() {
