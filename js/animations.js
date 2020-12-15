@@ -67,15 +67,15 @@ function initPageOne(){
 
 function preload() {
 	for(let i = 0;i<14;i++){
-		j1.push(loadImage("http://127.0.0.1:8848/p5test/j1/"+i+".png"))
+		j1.push(loadImage("http://127.0.0.1:8848/game/mygame/j1/"+i+".png"))
 	}
 	
 	for(let i = 0;i<11;i++){
-		j2.push(loadImage("http://127.0.0.1:8848/p5test/j2/"+i+".png"))
+		j2.push(loadImage("http://127.0.0.1:8848/game/mygame/j2/"+i+".png"))
 	}
 	
 	for(let i = 0;i<10;i++){
-		j3.push(loadImage("http://127.0.0.1:8848/p5test/j3/"+i+".png"))
+		j3.push(loadImage("http://127.0.0.1:8848/game/mygame/j3/"+i+".png"))
 	}
 	img1 = loadImage("http://127.0.0.1:8848/game/mygame/img/bg1.jpg")
 	img2 = loadImage("http://127.0.0.1:8848/game/mygame/img/bg2.jpg")
